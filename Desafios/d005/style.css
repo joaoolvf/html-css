@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: lime;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: mediumaquamarine;
+}
+img{
+    border-radius: 100%;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+li{
+    color: aquamarine;
+}
+a{
+    text-decoration: none;
+    color: lime;
+}
