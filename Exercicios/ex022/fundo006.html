@@ -9,11 +9,12 @@
     /* height: 100vh; = tamanho 100% da viewport, da janela do site */
     body {
         height: 100vh;
-        background-color: black;
-        background-image: url('imagens/wallpaper002.jpg');
-        background-position: center center;
-        background-repeat: no-repeat;
+        background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
         background-size: cover;
+        /*
+        Shorthand - background
+        color, image, position, repeat, size (embora o size nao funcione, ele está incluso na documentação oficial da w3c. nesse caso pode-se colocar separadamente), attachment
+        */
     }
     main {
         background-color: white;
