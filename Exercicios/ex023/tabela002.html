@@ -10,8 +10,8 @@
         }
         table {
             width: 500px;
-            border: 1px solid black;
             border-collapse: collapse;
+            position: relative;
         }
         caption {
             font-size: 1,5em;
@@ -19,18 +19,26 @@
             padding: 10px;
             background-color: lightgray;
         }
-        td, th {
-            border: 1px solid black;
-            padding: 10px;
-        }
         th, tfoot {
             background-color: rgb(54, 54, 54);
             color: white;
         }
+        th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(54, 54, 54);
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
         td.num {
             text-align: right;
         }
-    </style>
+        tbody > tr:nth-child(odd) {
+            background-color: lightgray;
+        }
+            </style>
 </head>
 <body>
     <h1>Uso de tabelas grandes</h1>
@@ -164,5 +172,18 @@
             <td class="num"><strong>215,3 M</strong></td>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta ut facere in nam error iste dolorem culpa tempore velit? Iusto quasi praesentium recusandae tempore cum provident at dolores enim ab.
+    Neque quo autem sit aperiam nemo sapiente a aliquid nesciunt id hic? Labore consequuntur quas quidem praesentium vitae sint, possimus quam quaerat eaque obcaecati recusandae earum culpa modi voluptatem provident.
+    Cum ullam perspiciatis aliquid et, ipsam repellat repellendus nisi iure. Sit natus aperiam voluptatibus explicabo atque ipsum veritatis saepe, nesciunt reiciendis dolorum eaque aspernatur dicta magnam quis, magni blanditiis temporibus.
+    Ipsum natus porro aspernatur autem possimus adipisci, nisi sunt veritatis voluptatem doloribus dignissimos eveniet non dolorem ex sequi voluptas ab repudiandae sint consectetur temporibus! Possimus at harum quod dolore enim. lorem</p>
+    Ipsum natus porro aspernatur autem possimus adipisci, nisi sunt veritatis voluptatem doloribus dignissimos eveniet non dolorem ex sequi voluptas ab repudiandae sint consectetur temporibus! Possimus at harum quod dolore enim. lorem</p>
+    Ipsum natus porro aspernatur autem possimus adipisci, nisi sunt veritatis voluptatem doloribus dignissimos eveniet non dolorem ex sequi voluptas ab repudiandae sint consectetur temporibus! Possimus at harum quod dolore enim. lorem</p>
+    Ipsum natus porro aspernatur autem possimus adipisci, nisi sunt veritatis voluptatem doloribus dignissimos eveniet non dolorem ex sequi voluptas ab repudiandae sint consectetur temporibus! Possimus at harum quod dolore enim. lorem</p>
+    Ipsum natus porro aspernatur autem possimus adipisci, nisi sunt veritatis voluptatem doloribus dignissimos eveniet non dolorem ex sequi voluptas ab repudiandae sint consectetur temporibus! Possimus at harum quod dolore enim. lorem</p>
+    Ipsum natus porro aspernatur autem possimus adipisci, nisi sunt veritatis voluptatem doloribus dignissimos eveniet non dolorem ex sequi voluptas ab repudiandae sint consectetur temporibus! Possimus at harum quod dolore enim. lorem</p>
+    Ipsum natus porro aspernatur autem possimus adipisci, nisi sunt veritatis voluptatem doloribus dignissimos eveniet non dolorem ex sequi voluptas ab repudiandae sint consectetur temporibus! Possimus at harum quod dolore enim. lorem</p>
+    Ipsum natus porro aspernatur autem possimus adipisci, nisi sunt veritatis voluptatem doloribus dignissimos eveniet non dolorem ex sequi voluptas ab repudiandae sint consectetur temporibus! Possimus at harum quod dolore enim. lorem</p>
+    Ipsum natus porro aspernatur autem possimus adipisci, nisi sunt veritatis voluptatem doloribus dignissimos eveniet non dolorem ex sequi voluptas ab repudiandae sint consectetur temporibus! Possimus at harum quod dolore enim. lorem</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae iste inventore accusamus et vero consequatur atque perspiciatis facilis? Minus voluptatibus deleniti ducimus. Eaque impedit facilis officia laboriosam modi cupiditate nemo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore ipsam ipsum, quae nostrum reiciendis necessitatibus officiis, quidem odit distinctio temporibus, nihil vel modi. Fugiat impedit dolorum minus libero, sapiente porro.</p>
 </body>
 </html>
