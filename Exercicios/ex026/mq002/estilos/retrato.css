@@ -1,4 +1,12 @@
 /* PORTRAIT */
 @charset "UTF-8";
 
-/* Configurações Gerais */
+body {
+    background-image: url(../imagens/cev-portrait.jpg);
+    background-position: center bottom;
+}
+
+h1 {
+    color: black;
+    text-shadow: 2px 2px 0px #d0d3e7;
+}
